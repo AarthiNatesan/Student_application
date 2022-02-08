@@ -1,0 +1,24 @@
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css);
+.main {
+    background: linear-gradient(to right, black, red);
+}
+
+.main-heading {
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.btn-success {
+    margin-left: 20px;
+}
+
+.details {
+    border: 3px solid gray;
+    padding: 15px;
+    margin: 20px;
+    background-color: rgb(235, 231, 231);
+    border-radius: 5px;
+    box-shadow: 5px 5px rgb(105, 102, 102);
+}
