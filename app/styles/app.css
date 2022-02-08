@@ -11,7 +11,10 @@
 }
 
 .btn-success {
-    margin-left: 20px;
+    margin-left: 40px;
+    padding: 5px;
+    border: 1px solid rgb(20, 70, 8);
+    font-weight: bolder;
 }
 
 .details {
@@ -21,4 +24,31 @@
     background-color: rgb(235, 231, 231);
     border-radius: 5px;
     box-shadow: 5px 5px rgb(105, 102, 102);
+}
+
+.new {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.box {
+    margin-left: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px rgb(105, 102, 102);
+}
+
+.new-record {
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px rgb(105, 102, 102);
+    margin: 50px;
+    background-color: rgb(170, 211, 211);
+}
+
+.heading {
+    font-weight: bolder;
+    font-size: 40px;
+    font-style: italic;
 }

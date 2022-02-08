@@ -1,6 +1,8 @@
 <div class="main">
   <a class="main-heading">STUDENTS LIST</a>
-  <button class="btn-success">New+</button>
+  {{#link-to "newlist" class="btn-success"}}
+    New+
+  {{/link-to}}
   <hr>
 </div>
 {{outlet}}
