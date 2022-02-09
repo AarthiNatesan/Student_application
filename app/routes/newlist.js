@@ -9,7 +9,7 @@ export default Route.extend({
             const ph_num = this.get('ph_num');
             const year = this.get('year');
             const city = this.get('city');
-            const newRecord = this.store.createRecord('studentdetails', {
+            const newRecord = this.store.createRecord('studentdetail', {
                 registration_num: reg_num,
                 first_name: first,
                 last_name: last,
