@@ -4,4 +4,9 @@ export default Route.extend({
     model() {
         return this.store.findAll('studentdetail');
     },
+    actions: {
+        display() {
+            alert('One');
+        }
+    }
 });
