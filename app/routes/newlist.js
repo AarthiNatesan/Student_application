@@ -10,10 +10,10 @@ export default Route.extend({
             const year = this.get('year');
             const city = this.get('city');
             const newRecord = this.store.createRecord('studentdetail', {
-                registration_num: reg_num,
-                first_name: first,
-                last_name: last,
-                phone_num: ph_num,
+                register: reg_num,
+                first: first,
+                last: last,
+                phone: ph_num,
                 year: year,
                 city: city
             })

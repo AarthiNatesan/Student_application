@@ -6,10 +6,10 @@ export default Component.extend({
             this.send('openModal', {
                 component: 'pop-up',
                 params: [
-                    'registration_num',
-                    'first_name',
-                    'last_name',
-                    'phone_num',
+                    'register',
+                    'first',
+                    'last',
+                    'phone',
                     'year',
                     'city'
                 ]
