@@ -6,14 +6,15 @@ export default Route.extend({
             const reg_num = this.get('reg_num');
             const first = this.get('first');
             const last = this.get('last');
-            const ph_num = this.get('ph_num');
+            const ph_num = this.get('ph');
             const year = this.get('year');
             const city = this.get('city');
+            alert(reg_num);
             const newRecord = this.store.createRecord('studentdetail', {
-                registration_num: reg_num,
-                first_name: first,
-                last_name: last,
-                phone_num: ph_num,
+                register: reg_num,
+                first: first,
+                last: last,
+                phone: ph_num,
                 year: year,
                 city: city
             })
