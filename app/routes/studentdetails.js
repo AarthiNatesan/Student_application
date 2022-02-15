@@ -2,11 +2,11 @@ import Route from '@ember/routing/route';
 
 export default Route.extend({
     model() {
-        return this.store.findAll('studentdetail');
+        return this.store.findAll('studentdetail')
     },
     actions: {
         display() {
-            alert('One');
+            alert('one');
         }
     }
 });
