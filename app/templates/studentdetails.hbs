@@ -1,5 +1,27 @@
-<div>
+<div class="xyz">
   {{#each model as |studentUnit|}}
-    <StudentListing @student={{studentUnit}}/>
+    <div class="abc" {{action (action "isShowingTranslucent")}} role="button">
+      <StudentListing @student={{studentUnit}}/>
+      {{#if isShowingModal}}
+        {{#modal-dialog
+         onClose=(action "isShowingTranslucent" false)
+         translucentOverlay=true
+        }}
+          {{#each model as |studentUnit|}}
+            <StudentListing @student={{studentUnit}}/>
+          {{/each}}
+        {{/modal-dialog}}
+      {{/if}}
+    </div>
   {{/each}}
 </div>
+
+{{!-- {{#if isShowingModal}}
+  {{#modal-dialog
+      onClose=(action "isShowingTranslucent" false)
+    translucentOverlay=true
+  }}
+    <StudentListing @student={{studentUnit}}/>
+    <button class="btn-success" onclick={{action "isShowingTranslucent" false}}>Close</button>
+  {{/modal-dialog}}
+{{/if}} --}}
