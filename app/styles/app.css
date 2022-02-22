@@ -1,4 +1,6 @@
 @import url(https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css);
+@import "ember-modal-dialog/ember-modal-structure.css";
+@import "ember-modal-dialog/ember-modal-appearance.css";
 .main {
     background: linear-gradient(to right, black, red);
 }
@@ -11,10 +13,11 @@
 }
 
 .btn-success {
-    margin-left: 40px;
-    padding: 5px;
-    border: 1px solid rgb(20, 70, 8);
+    margin-left: 75px;
+    padding: 3px;
+    border: 2px solid rgb(20, 70, 8);
     font-weight: bolder;
+    border-radius: 5px;
 }
 
 .details {
@@ -51,4 +54,8 @@
     font-weight: bolder;
     font-size: 40px;
     font-style: italic;
+}
+
+body {
+    background-color: rgb(19, 38, 49);
 }
