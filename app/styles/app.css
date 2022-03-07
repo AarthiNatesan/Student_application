@@ -13,9 +13,8 @@
 }
 
 .btn-success {
-    margin-left: 75px;
-    padding: 3px;
-    border: 2px solid rgb(20, 70, 8);
+    margin-left: 115px;
+    padding: 5px;
     font-weight: bolder;
     border-radius: 5px;
 }
@@ -37,7 +36,7 @@
 
 .box {
     margin-left: 10px;
-    border: 1px solid black;
+    border: 1px solid rgb(10, 6, 6);
     border-radius: 5px;
     box-shadow: 5px 5px rgb(105, 102, 102);
 }
